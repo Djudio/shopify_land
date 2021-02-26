@@ -1,0 +1,209 @@
+body {
+    width: 100%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.welcome_container {
+    background-image: url(../images/Без\ названия.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    padding-top: 38px;
+    padding-bottom: 70px;
+}
+
+.shopify_logo_position{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+
+.shopify_logo_size{
+    height: 31px;
+    width: 110px;
+}
+
+.text_styles {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.slogan {
+   font-size: 24px;
+   color: white;
+   margin-bottom: 20px;
+}
+
+.input_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email_input{
+    width: 290px;
+    height: 51px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button.button_black{
+    background-color:#212326;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 163px;
+    height: 57px;
+}
+
+button.button_black:hover{
+    background-color: black;
+}
+
+.shopify_agreement{
+    color: white;
+    font-size: 12px;
+}
+
+.welcome_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.welcome_image_size {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+}
+
+.information_section{
+    padding: 96px 0px 96px 0px;
+    width: 100%;
+}
+
+.iformation_section_size{
+    padding: 0px 32px 0 32px;
+    margin: 0px 118px 45px 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h2_style{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.icon_size{
+    height: 45px;
+    width: 45px;
+}
+
+p{
+    color: #6b7177;
+}
+
+.flex_first_line{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+
+.flex_second_line{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+
+.flex_third_line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.partners_setion{
+    padding: 96px 0px 96px 0px;
+    margin: 0px 118px 0px 118px;
+}
+
+.partners_section_border{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin: 0px 118px 0px 118px;
+}
+
+.partner_icons_container{
+    margin: 0px 118px 0px 118px;
+    padding: 48px 0px 48px 0px;
+}
+
+.partners_position{
+    height: 42px;
+    width: 111px;
+    margin: 0 auto;
+}
+
+.end_container{
+    align-items: center;
+    padding: 96px 0 96px 0;
+    margin: 0 87px 0 87px;
+    text-align: center;
+}
+
+.comment_text{
+    font-size: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 24px;
+    color: #212326;
+}
+
+h3{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #42474c;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.button_green{
+    background-color: #008060;
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 163px;
+    height: 57px;
+    margin: 0px auto;
+}
+
+.links_container{
+    text-align: right;
+    margin: 16px 24px 16px 24px;
+}
+
+.links_style{
+    color: #008060;
+    font-size: 16px;
+    margin: 0px 16px 0px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
