@@ -11,6 +11,7 @@ body {
     background-size:cover;
     padding-top: 38px;
     padding-bottom: 70px;
+    width: 100%;
 }
 
 .shopify_logo_position{
@@ -85,6 +86,9 @@ button.button_black:hover{
 }
 
 .information_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 96px 0px 96px 0px;
     width: 100%;
 }
@@ -129,7 +133,6 @@ p{
     justify-content: space-around;
 }
 
-
 .partners_setion{
     padding: 96px 0px 96px 0px;
     margin: 0px 118px 0px 118px;
@@ -142,7 +145,9 @@ p{
 }
 
 .partner_icons_container{
-    margin: 0px 118px 0px 118px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 48px 0px 48px 0px;
 }
 
@@ -193,7 +198,6 @@ h3{
     font-size: 16px;
     margin: 0px 16px 0px 16px;
 }
-
 
 
 
