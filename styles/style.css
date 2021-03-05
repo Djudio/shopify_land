@@ -1,17 +1,26 @@
 body {
+    margin: 0px;
+    padding: 0px;
     width: 100%;
-    margin: 0px auto;
-    height: 100%;
 }
 
-.welcome_container {
+.welcome_section {
     background-image: url(../images/Без\ названия.svg);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: top center;
     background-size:cover;
     padding-top: 38px;
-    padding-bottom: 70px;
+    padding-bottom: 96px;
     width: 100%;
+}
+
+.page_width {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .shopify_logo_position{
@@ -42,7 +51,7 @@ h1 {
    margin-bottom: 20px;
 }
 
-.input_button{
+.navigation_line{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,6 +62,7 @@ h1 {
     height: 51px;
     border-radius: 5px;
     margin-right: 10px;
+    padding-left: 10px;
 }
 
 button.button_black{
@@ -86,22 +96,21 @@ button.button_black:hover{
 }
 
 .information_section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 96px 0px 96px 0px;
-    width: 100%;
+    padding: 0px 0px 96px 0px;
 }
 
-.iformation_section_size{
-    padding: 0px 32px 0 32px;
-    margin: 0px 118px 45px 118px;
+.information_position{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+
+.flex_line{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
-.h2_style{
+.text_style{
     font-size: 18px;
     margin: 0px;
 }
@@ -115,53 +124,38 @@ p{
     color: #6b7177;
 }
 
-.flex_first_line{
-    display: flex;
-    flex-direction: column;
-    padding-right: 15px;
-}
-
-.flex_second_line{
-    display: flex;
-    flex-direction: column;
-    padding-right: 15px;
-}
-
-.flex_third_line{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.partners_setion{
-    padding: 96px 0px 96px 0px;
-    margin: 0px 118px 0px 118px;
-}
-
-.partners_section_border{
+.partners_border{
     border-bottom: 1px solid;
     border-top: 1px solid;
-    margin: 0px 118px 0px 118px;
-}
-
-.partner_icons_container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    color: #d2d5d9;
     padding: 48px 0px 48px 0px;
 }
 
-.partners_position{
-    height: 42px;
-    width: 111px;
-    margin: 0 auto;
+.partner_icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
 }
 
-.end_container{
+ul{
+    list-style: none;
+}
+
+.logo_list{
+    margin: 0px 16px 32px 16px ;
+}
+
+.partners_size{
+    height: 34px;
+    width: 90px;;
+}
+
+.comment{
     align-items: center;
-    padding: 96px 0 96px 0;
-    margin: 0 87px 0 87px;
     text-align: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .comment_text{
@@ -199,8 +193,26 @@ h3{
     margin: 0px 16px 0px 16px;
 }
 
+@media screen and (max-width: 760px){
+    .flex_line{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .navigation_line{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 
+    .button_black{
+        min-width: 310px;
+    }
+
+    .email_input{
+        margin-bottom: 5px;
+    }
+}
 
 
 
